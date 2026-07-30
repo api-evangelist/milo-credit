@@ -1,8 +1,14 @@
 aid: milo-credit
 name: Milo Credit
-description: 'Milo Credit is a company surfaced as a portfolio company of qed-investors and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Milo (formerly Milo Credit) is a Miami-based financial technology company and licensed
+  mortgage lender that pioneered crypto-backed lending. Milo lets cryptocurrency holders access cash or
+  finance U.S. real estate without selling their digital assets, offering crypto-backed mortgages with up
+  to 100% financing, self-custody mortgages, and crypto-backed loans funded in as little as 24 hours, with
+  rates starting around 7%. The company was an early portfolio investment of QED Investors and operates as
+  a consumer-facing lending platform rather than a developer/API-first company. As of this enrichment pass
+  Milo publishes no public API, developer portal, SDKs, or API documentation; its public surface is a
+  consumer web application (app.milo.io), a marketing site, a blog, an FAQ, and a hosted trust/security
+  center. This profile is maintained in the API Evangelist network as a company record.'
 url: https://raw.githubusercontent.com/api-evangelist/milo-credit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.milo.io/favicon.ico
 tags:
 - Company
 - Fintech
+- Lending
+- Mortgages
+- Cryptocurrency
+- Crypto-Backed Loans
+- Real Estate
+- Consumer Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/milo-credit-domain-security.yml
 - type: Website
-  url: https://www.milocredit.com/
+  url: https://www.milo.io/
+- type: SignUp
+  url: https://app.milo.io/accounts/#/welcome
+- type: Login
+  url: https://app.milo.io/accounts/#/sign-in
+- type: Blog
+  url: https://www.milo.io/blog/
+- type: Support
+  url: https://www.milo.io/contact-us/
+- type: TermsOfService
+  url: https://www.milo.io/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.milo.io/privacy-policy/
+- type: TrustCenter
+  url: https://security.milo.io/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
