@@ -49,7 +49,7 @@ tags:
 - Mortgage
 - Cryptocurrency
 - Crypto-Backed Loans
-- Real-Estate
+- Real Estate
 - Consumer Finance
 tags_raw:
 - Company
@@ -60,6 +60,7 @@ tags_raw:
 - Crypto-Backed Loans
 - Real Estate
 - Consumer Finance
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
